@@ -1,13 +1,21 @@
-import { NavLink } from 'react-router-dom';
-
-// потрібно розібратися чи треба коли ти робиш по реакту сайт дотримуватися семантики HTML
+import { Container } from './portfolio.styled';
 
 export function Portfolio() {
   return (
     <>
-      <h2>Portfolio</h2>
-      <NavLink to="/resume">To resume</NavLink>
-      <NavLink to="/certificates">To certificates</NavLink>
+      <Container>
+        <div>
+          <h2>111 electrod</h2>
+        </div>
+
+        <div>
+          <h2>135 MAG</h2>
+        </div>
+
+        <div>
+          <h2>136 MAG</h2>
+        </div>
+      </Container>
     </>
   );
 }

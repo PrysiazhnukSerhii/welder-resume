@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import photoSerhiiPrysiazhniuk from '../../img/photoSerhiiPrysiazhniuk.jpg';
 
 import {
@@ -9,19 +8,31 @@ import {
   Title,
   Profession,
   Container,
+  SectionContainer,
   Box,
   Section,
   TitleSecondary,
   Position,
-  BoxExperiance,
+  BoxExperience,
   NameCompani,
+  DateContainer,
+  Tasks,
+  ListTasks,
+  ListTasksItem,
+  StyledLink,
+  EducationTitle,
+  SkillsItem,
+  ListSkills,
+  ListLanguages,
+  LanguagesItem,
+  LanguagesLevl,
+  Interests,
 } from './resume.styled';
 import { TfiEmail, TfiMobile } from 'react-icons/tfi';
 
 export function Resume() {
   return (
     <>
-      <h2>Resume</h2>
       <div>
         <Heder>
           <div>
@@ -34,20 +45,17 @@ export function Resume() {
               working with a crane beam.
             </p>
           </div>
-
           <Image
             src={photoSerhiiPrysiazhniuk}
             alt="photo Serhii Prysiazhniuk"
           ></Image>
         </Heder>
-
         <Contacts>
           <li>
             <ContactsLink href="mailto:feremiks@gmail.com">
               <TfiEmail /> <span>feremiks@gmail.com</span>
             </ContactsLink>
           </li>
-
           {/* звонілка по номеру не вибивається */}
           <li>
             <ContactsLink href="tel:+421944038946">
@@ -57,149 +65,142 @@ export function Resume() {
           </li>
         </Contacts>
       </div>
-
       <Section>
         <Box>
-          <div>
+          <SectionContainer>
             <TitleSecondary>WORK EXPERIANCE</TitleSecondary>
-
-            <BoxExperiance>
+            <BoxExperience>
               <Position>Welder MIG/MAG MMA</Position>
               <NameCompani>Robi</NameCompani>
-              <div>
+              <DateContainer>
                 <p>02/2020-09/2022</p>
                 <p>Antwerpen, Belgium</p>
-              </div>
-              <p>Achievements/Tasks</p>
-              <ul>
-                <li>
+              </DateContainer>
+              <Tasks>Achievements/Tasks</Tasks>
+              <ListTasks>
+                <ListTasksItem>
                   Welded tanks for oil products, chemicals and other liquids
                   with a volume of 6000 tons. black metal, duplex and inox.
-                </li>
-                <li>
+                </ListTasksItem>
+                <ListTasksItem>
                   Perform welding 136 and 111 methods in all welding positions,
                   control was performed by ultrasonic and X-ray.
-                </li>
-                <li>Welded flanges and pipes</li>
-                <li>Metal thickness from 4mm to 35mm.</li>
-              </ul>
-            </BoxExperiance>
-
-            <BoxExperiance>
+                </ListTasksItem>
+                <ListTasksItem>Welded flanges and pipes</ListTasksItem>
+                <ListTasksItem>Metal thickness from 4mm to 35mm.</ListTasksItem>
+              </ListTasks>
+            </BoxExperience>
+            <BoxExperience>
               <Position>Welder MIG/MAG </Position>
               <NameCompani>UkrProfiGroup</NameCompani>
-              <div>
+              <DateContainer>
                 <p>08/2018-12/2019</p>
                 <p>Nowy Sacz, Polend</p>
-              </div>
-              <p>Achievements/Tasks</p>
-              <ul>
-                <li>Welded elements of train frames and railway bogie.</li>
-                <li>
+              </DateContainer>
+              <Tasks>Achievements/Tasks</Tasks>
+              <ListTasks>
+                <ListTasksItem>
+                  Welded elements of train frames and railway bogie.
+                </ListTasksItem>
+                <ListTasksItem>
                   Perform welding 135 method, in the positions PA, PB, PC, PF,
                   the control was carried out on vibration and ultra sound.
-                </li>
-                <li>Made corrections by 141 method.</li>
-                <li>Metal thickness from 6mm to 25mm.</li>
-              </ul>
-            </BoxExperiance>
-
-            <BoxExperiance>
+                </ListTasksItem>
+                <ListTasksItem>Made corrections by 141 method.</ListTasksItem>
+                <ListTasksItem>Metal thickness from 6mm to 25mm.</ListTasksItem>
+              </ListTasks>
+            </BoxExperience>
+            <BoxExperience>
               <Position>Welder MIG/MAG </Position>
               <NameCompani>Bizon</NameCompani>
-              <div>
+              <DateContainer>
                 <p>07/1017-08/2018</p>
                 <p>Kiev, Ukraine</p>
-              </div>
-              <p>Achievements/Tasks</p>
-              <ul>
-                <li>
+              </DateContainer>
+              <Tasks>Achievements/Tasks</Tasks>
+              <ListTasks>
+                <ListTasksItem>
                   Perform welding of various structures (armored doors,
                   balconies, fences, gates, etc.) using 135 and 111 methods
-                </li>
-                <li>Metal thickness from 1mm to 15mm.</li>
-              </ul>
-            </BoxExperiance>
-          </div>
-
-          <div>
+                </ListTasksItem>
+                <ListTasksItem>Metal thickness from 1mm to 15mm.</ListTasksItem>
+              </ListTasks>
+            </BoxExperience>
+          </SectionContainer>
+          <SectionContainer>
             <TitleSecondary>CERTIFICATES</TitleSecondary>
-            <p>ISO 9606-1 111 method (08/2022 - 12/2025)</p>
-            <p>ISO 9606-1 135-136 method (08/2022 - 12/2025)</p>
-          </div>
-
-          <div>
+            <StyledLink to="/certificates">
+              ISO 9606-1 111 method (08/2022 - 12/2025)
+            </StyledLink>
+            <StyledLink to="/certificates">
+              ISO 9606-1 135-136 method (08/2022 - 12/2025)
+            </StyledLink>
+          </SectionContainer>
+          <SectionContainer>
             <TitleSecondary>Education</TitleSecondary>
-            <h4>Personnel manager in education</h4>
+            <EducationTitle>Personnel manager in education</EducationTitle>
             <p>
               National University of Life and Environmental Sciences of Ukraine
             </p>
             <p>09/2012-06/2016</p>
-
-            <h4>Welder MIG/MAG MMA</h4>
+            <EducationTitle>Welder MIG/MAG MMA</EducationTitle>
             <p>
               National University of Life and Environmental Sciences of Ukraine
             </p>
             <p>09/2009-06/2012</p>
-          </div>
+          </SectionContainer>
         </Box>
         {/* це ділить на половину  */}
         <Container>
-          <div>
+          <SectionContainer>
             <TitleSecondary>SKILLS</TitleSecondary>
-            <ul>
-              <li>MMA welding</li>
-              <li> MIG/MAG welding</li>
-              <li>Flanges and pipe welding</li>
-              <li> Industrial welding</li>
-              <li>Noticing molten metal flow changes</li>
-              <li>Reading blueprints</li>
-              <li>Calculating Dimensions</li>
-              <li>Work with a grinding machine</li>
-            </ul>
-          </div>
-          <div>
+            <ListSkills>
+              <SkillsItem>MMA welding</SkillsItem>
+              <SkillsItem>MIG/MAG welding</SkillsItem>
+              <SkillsItem>Flanges and pipe welding</SkillsItem>
+              <SkillsItem>Industrial welding</SkillsItem>
+              <SkillsItem>Noticing molten metal flow changes</SkillsItem>
+              <SkillsItem>Reading blueprints</SkillsItem>
+              <SkillsItem>Calculating Dimensions</SkillsItem>
+              <SkillsItem>Work with a grinding machine</SkillsItem>
+            </ListSkills>
+          </SectionContainer>
+          <SectionContainer>
             <TitleSecondary>LANGUAGES</TitleSecondary>
-            <ul>
-              <li>
-                <p>Ukraine</p>
-                <p>Native or Bilingual Proficiency</p>
-              </li>
-              <li>
-                <p>Rassian</p>
-                <p>Native or Bilingual Proficiency</p>
-              </li>
-              <li>
-                <p>English</p>
-                <p>Intermediate</p>
-              </li>
-              <li>
-                <p>Slovakian</p>
-                <p>Limited Working Proficiency</p>
-              </li>
-              <li>
-                <p>Polish</p>
-                <p>Elementary Proficiency</p>
-              </li>
-            </ul>
-          </div>
-
-          <div>
+            <ListLanguages>
+              <LanguagesItem>
+                <span>Ukraine</span>
+                <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
+              </LanguagesItem>
+              <LanguagesItem>
+                <span>Rassian</span>
+                <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
+              </LanguagesItem>
+              <LanguagesItem>
+                <span>English</span>
+                <LanguagesLevl>Intermediate</LanguagesLevl>
+              </LanguagesItem>
+              <LanguagesItem>
+                <span>Slovakian</span>
+                <LanguagesLevl>Limited Working Proficiency</LanguagesLevl>
+              </LanguagesItem>
+              <LanguagesItem>
+                <span>Polish</span>
+                <LanguagesLevl>Elementary Proficiency</LanguagesLevl>
+              </LanguagesItem>
+            </ListLanguages>
+          </SectionContainer>
+          <SectionContainer>
             <TitleSecondary>INTERESTS</TitleSecondary>
             <ul>
-              <li>Programming javascript</li>
-              <li> Astronomy</li>
-              <li>History</li>
-              <li> Physics</li>
+              <Interests>Programming javascript</Interests>
+              <Interests> Astronomy</Interests>
+              <Interests>History</Interests>
+              <Interests> Physics</Interests>
             </ul>
-          </div>
+          </SectionContainer>
         </Container>
       </Section>
-
-      <NavLink to="/portfolio">To welding seams portfolio</NavLink>
-      <NavLink to="/certificates">To wCertificates</NavLink>
-      {/* <button> </button>
-      <button> Certificates</button> */}
     </>
   );
 }
