@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/welder-resume/static/css/main.acac4778.css",
-    "main.js": "/welder-resume/static/js/main.eaa47c54.js",
+    "main.js": "/welder-resume/static/js/main.2d7abca3.js",
     "static/media/photoSerhiiPrysiazhniuk.jpg": "/welder-resume/static/media/photoSerhiiPrysiazhniuk.3b36b4d2b9e375bff75f.jpg",
     "index.html": "/welder-resume/index.html",
     "main.acac4778.css.map": "/welder-resume/static/css/main.acac4778.css.map",
-    "main.eaa47c54.js.map": "/welder-resume/static/js/main.eaa47c54.js.map"
+    "main.2d7abca3.js.map": "/welder-resume/static/js/main.2d7abca3.js.map"
   },
   "entrypoints": [
     "static/css/main.acac4778.css",
-    "static/js/main.eaa47c54.js"
+    "static/js/main.2d7abca3.js"
   ]
 }
