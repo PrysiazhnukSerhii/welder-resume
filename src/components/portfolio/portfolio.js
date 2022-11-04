@@ -1,21 +1,21 @@
-import { Container } from './portfolio.styled';
+import { Header } from './portfolio.styled';
 
 export function Portfolio() {
   return (
     <>
-      <Container>
+      <div>
         <div>
-          <h2>111 electrod</h2>
+          <Header>111 electrod</Header>
         </div>
 
         <div>
-          <h2>135 MAG</h2>
+          <Header>135 MAG</Header>
         </div>
 
         <div>
-          <h2>136 MAG</h2>
+          <Header>136 MAG</Header>
         </div>
-      </Container>
+      </div>
     </>
   );
 }
