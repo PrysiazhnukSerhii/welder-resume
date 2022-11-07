@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/welder-resume/static/css/main.acac4778.css",
-    "main.js": "/welder-resume/static/js/main.65269a87.js",
+    "main.js": "/welder-resume/static/js/main.4832c67e.js",
+    "static/media/PA_electrod.jpg": "/welder-resume/static/media/PA_electrod.21495cfebe271eeaee3a.jpg",
+    "static/media/PcElectrod_2.jpg": "/welder-resume/static/media/PcElectrod_2.4648baca4d29f151d736.jpg",
+    "static/media/PcElectrod_1.jpg": "/welder-resume/static/media/PcElectrod_1.499f506ee78453c4c596.jpg",
+    "static/media/pipeRuf.jpg": "/welder-resume/static/media/pipeRuf.0c03dd141990e24c7790.jpg",
+    "static/media/Mangat2.jpg": "/welder-resume/static/media/Mangat2.b6710c78c496516eb2b8.jpg",
+    "static/media/Mangat.jpg": "/welder-resume/static/media/Mangat.975e92ab52fc3f6ad760.jpg",
     "static/media/photoSerhiiPrysiazhniuk.jpg": "/welder-resume/static/media/photoSerhiiPrysiazhniuk.3b36b4d2b9e375bff75f.jpg",
     "index.html": "/welder-resume/index.html",
     "main.acac4778.css.map": "/welder-resume/static/css/main.acac4778.css.map",
-    "main.65269a87.js.map": "/welder-resume/static/js/main.65269a87.js.map"
+    "main.4832c67e.js.map": "/welder-resume/static/js/main.4832c67e.js.map"
   },
   "entrypoints": [
     "static/css/main.acac4778.css",
-    "static/js/main.65269a87.js"
+    "static/js/main.4832c67e.js"
   ]
 }
