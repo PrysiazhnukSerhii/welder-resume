@@ -1,13 +1,13 @@
-import { StyledLink } from './appBar.styled';
+import { StyledLink, Nav } from './appBar.styled';
 
 export function AppBar() {
   return (
     <>
-      <nav>
+      <Nav>
         <StyledLink to="/resume">Resume</StyledLink>
         <StyledLink to="/portfolio">Portfolio</StyledLink>
         <StyledLink to="/certificates">Сertificates</StyledLink>
-      </nav>
+      </Nav>
     </>
   );
 }
