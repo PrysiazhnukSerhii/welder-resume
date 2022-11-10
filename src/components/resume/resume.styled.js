@@ -168,6 +168,12 @@ export const StyledLink = styled(NavLink)`
   &:last-child {
     margin-bottom: 0;
   }
+
+  &:hover {
+    background-color: #e87b07;
+
+    color: #1f1f1c;
+  }
 `;
 
 // ------------Education --------
