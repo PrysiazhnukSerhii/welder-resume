@@ -1,5 +1,7 @@
 import { Item, Picture, Link } from './imageGalleryItem.styled';
 
+// import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
+
 export function ImageGalleryItem({ imageArray, galleryID }) {
   // взагалі потрібно подивитися як доставати зразу всі картинки ато якось дикувати писати все в ручну а потім переносити
 
@@ -14,8 +16,10 @@ export function ImageGalleryItem({ imageArray, galleryID }) {
         key={galleryID + '-' + index}
         target="_blank"
         rel="noreferrer"
+        alt="uuuuuuuuuuuu"
       >
         <Picture src={image.url} alt={image.name} />
+        {/* <h3 className="hidden-caption-content">TTTTTTTTTTTTTTTTTTTTTTTTT</h3> */}
       </Link>
     </Item>
   ));

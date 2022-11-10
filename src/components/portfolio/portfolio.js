@@ -8,6 +8,8 @@ import { ImageGalleryItem } from './imageGallery/imageGalleryItem';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 
+console.log(PhotoSwipeLightbox);
+
 export function Portfolio() {
   const galleryID = 'weld-gallery';
   useEffect(() => {
@@ -15,7 +17,44 @@ export function Portfolio() {
       gallery: '#' + galleryID,
       children: 'a',
       pswpModule: () => import('photoswipe'),
+      paddingFn: viewportSize => {
+        return {
+          top: 5,
+          bottom: 5,
+        };
+      },
     });
+
+    lightbox.on('uiRegister', function () {
+      lightbox.pswp.ui.registerElement({
+        name: 'custom-caption',
+        order: 9,
+        isButton: false,
+        appendTo: 'root',
+        html: 'Caption text',
+        onInit: (el, pswp) => {
+          lightbox.pswp.on('change', () => {
+            const currSlideElement = lightbox.pswp.currSlide.data.element;
+
+            let captionHTML = '';
+            if (currSlideElement) {
+              const hiddenCaption = currSlideElement.querySelector(
+                '.hidden-caption-content'
+              );
+              if (hiddenCaption) {
+                captionHTML = hiddenCaption.innerHTML;
+              } else {
+                captionHTML = currSlideElement
+                  .querySelector('img')
+                  .getAttribute('alt');
+              }
+            }
+            el.innerHTML = captionHTML || '';
+          });
+        },
+      });
+    });
+
     lightbox.init();
 
     return () => {
