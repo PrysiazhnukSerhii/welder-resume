@@ -8,8 +8,6 @@ import { ImageGalleryItem } from './imageGallery/imageGalleryItem';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 
-console.log(PhotoSwipeLightbox);
-
 export function Portfolio() {
   const galleryID = 'weld-gallery';
   useEffect(() => {

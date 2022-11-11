@@ -1,4 +1,4 @@
-export const colot = {
+export const color = {
   primeri_blue: '#42949a',
   black_color: '#1c2530',
   orange_app: '#e87b07',
