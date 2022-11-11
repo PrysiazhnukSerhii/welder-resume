@@ -8,7 +8,7 @@ import { AppBar } from 'components/appBar/appBar';
 import { Container } from './app.styled';
 
 export const App = () => {
-  console.log(document.interestCohort);
+  console.log(`нове ${document.interestCohort}`);
   return (
     <Container>
       <AppBar />
