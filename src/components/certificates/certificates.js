@@ -7,8 +7,7 @@ import {
   LinkCertificates,
 } from './certificates.styled';
 
-import certificat111 from '../../certificatesPdf/SerhiiPrysiazhniuk111.pdf';
-import certificat135_136 from '../../certificatesPdf/SerhiiPrysiazhniuk135-136.pdf';
+import { certificat111, certificat135_136 } from '../../certificatesPdf/index';
 
 export function Certificates() {
   return (
