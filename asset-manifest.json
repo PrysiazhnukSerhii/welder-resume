@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/welder-resume/static/css/main.c29bbee0.css",
-    "main.js": "/welder-resume/static/js/main.16eb6e42.js",
+    "main.js": "/welder-resume/static/js/main.c4ca372f.js",
     "static/js/272.23ec73ca.chunk.js": "/welder-resume/static/js/272.23ec73ca.chunk.js",
     "static/media/PF-136-14mm-2.jpg": "/welder-resume/static/media/PF-136-14mm-2.7801ae00ee7409b026c9.jpg",
     "static/media/PF-136-14mm.jpg": "/welder-resume/static/media/PF-136-14mm.8e406ef9852d586d6582.jpg",
@@ -27,11 +27,11 @@
     "static/media/photoSerhiiPrysiazhniuk.jpg": "/welder-resume/static/media/photoSerhiiPrysiazhniuk.3b36b4d2b9e375bff75f.jpg",
     "index.html": "/welder-resume/index.html",
     "main.c29bbee0.css.map": "/welder-resume/static/css/main.c29bbee0.css.map",
-    "main.16eb6e42.js.map": "/welder-resume/static/js/main.16eb6e42.js.map",
+    "main.c4ca372f.js.map": "/welder-resume/static/js/main.c4ca372f.js.map",
     "272.23ec73ca.chunk.js.map": "/welder-resume/static/js/272.23ec73ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c29bbee0.css",
-    "static/js/main.16eb6e42.js"
+    "static/js/main.c4ca372f.js"
   ]
 }
