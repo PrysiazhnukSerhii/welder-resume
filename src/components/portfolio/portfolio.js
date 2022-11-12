@@ -8,19 +8,41 @@ import { ImageGalleryItem } from './imageGallery/imageGalleryItem';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 
+function isPhonePortrait() {
+  return window.matchMedia('(max-width: 600px) and (orientation: portrait)')
+    .matches;
+}
+
 export function Portfolio() {
   const galleryID = 'weld-gallery';
   useEffect(() => {
     let lightbox = new PhotoSwipeLightbox({
       gallery: '#' + galleryID,
       children: 'a',
-      pswpModule: () => import('photoswipe'),
       paddingFn: viewportSize => {
         return {
           top: 5,
           bottom: 5,
         };
       },
+      initialZoomLevel: zoomLevelObject => {
+        if (isPhonePortrait()) {
+          return zoomLevelObject.vFill;
+        } else {
+          return zoomLevelObject.fit;
+        }
+      },
+      secondaryZoomLevel: zoomLevelObject => {
+        if (isPhonePortrait()) {
+          return zoomLevelObject.fit;
+        } else {
+          return 1;
+        }
+      },
+
+      maxZoomLevel: 1,
+
+      pswpModule: () => import('photoswipe'),
     });
 
     lightbox.on('uiRegister', function () {
