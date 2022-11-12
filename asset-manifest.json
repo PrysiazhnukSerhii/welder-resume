@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/welder-resume/static/css/main.c29bbee0.css",
-    "main.js": "/welder-resume/static/js/main.b024e287.js",
+    "main.js": "/welder-resume/static/js/main.ad7142fc.js",
     "static/js/272.23ec73ca.chunk.js": "/welder-resume/static/js/272.23ec73ca.chunk.js",
     "static/media/PF-136-14mm-2.jpg": "/welder-resume/static/media/PF-136-14mm-2.7801ae00ee7409b026c9.jpg",
     "static/media/PF-136-14mm.jpg": "/welder-resume/static/media/PF-136-14mm.8e406ef9852d586d6582.jpg",
     "static/media/PF-136-3.jpg": "/welder-resume/static/media/PF-136-3.f99b387d9d63c85b374b.jpg",
-    "pdf.worker.js": "/welder-resume/333cd4df235e9086a2073267123e94e0.js",
     "static/media/PA_electrod.jpg": "/welder-resume/static/media/PA_electrod.91ff917990ad7dc9b694.jpg",
     "static/media/SerhiiPrysiazhniuk135-136.pdf": "/welder-resume/static/media/SerhiiPrysiazhniuk135-136.f51bc0af9f0cb3ce39a5.pdf",
     "static/media/SerhiiPrysiazhniuk111.pdf": "/welder-resume/static/media/SerhiiPrysiazhniuk111.bb6efe53d5767c0de778.pdf",
@@ -27,11 +26,11 @@
     "static/media/photoSerhiiPrysiazhniuk.jpg": "/welder-resume/static/media/photoSerhiiPrysiazhniuk.3b36b4d2b9e375bff75f.jpg",
     "index.html": "/welder-resume/index.html",
     "main.c29bbee0.css.map": "/welder-resume/static/css/main.c29bbee0.css.map",
-    "main.b024e287.js.map": "/welder-resume/static/js/main.b024e287.js.map",
+    "main.ad7142fc.js.map": "/welder-resume/static/js/main.ad7142fc.js.map",
     "272.23ec73ca.chunk.js.map": "/welder-resume/static/js/272.23ec73ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c29bbee0.css",
-    "static/js/main.b024e287.js"
+    "static/js/main.ad7142fc.js"
   ]
 }
