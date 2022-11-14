@@ -5,6 +5,11 @@ export const ListItem = styled.ul`
   flex-wrap: wrap;
 
   margin: -10px;
+
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+    align-content: center;
+  }
 `;
 
 export const Box = styled.div`

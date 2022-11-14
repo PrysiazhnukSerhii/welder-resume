@@ -27,12 +27,13 @@ import {
   LanguagesItem,
   LanguagesLevl,
   Interests,
+  GlobalContainer,
 } from './resume.styled';
 import { TfiEmail, TfiMobile } from 'react-icons/tfi';
 
 export function Resume() {
   return (
-    <>
+    <GlobalContainer>
       <div>
         <Heder>
           <div>
@@ -201,6 +202,6 @@ export function Resume() {
           </SectionContainer>
         </Container>
       </Section>
-    </>
+    </GlobalContainer>
   );
 }

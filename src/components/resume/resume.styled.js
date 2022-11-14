@@ -1,6 +1,10 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
+export const GlobalContainer = styled.div`
+  width: 900px;
+`;
+
 export const Image = styled.img`
   width: 180px;
   heigth: 200px;
