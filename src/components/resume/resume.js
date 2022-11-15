@@ -179,15 +179,15 @@ export function Resume() {
               </LanguagesItem>
               <LanguagesItem>
                 <span>English</span>
-                <LanguagesLevl>Intermediate</LanguagesLevl>
+                <LanguagesLevl>Pre-Intermediate</LanguagesLevl>
               </LanguagesItem>
               <LanguagesItem>
                 <span>Slovakian</span>
-                <LanguagesLevl>Limited Working Proficiency</LanguagesLevl>
+                <LanguagesLevl>Elementary</LanguagesLevl>
               </LanguagesItem>
               <LanguagesItem>
                 <span>Polish</span>
-                <LanguagesLevl>Elementary Proficiency</LanguagesLevl>
+                <LanguagesLevl>Elementary</LanguagesLevl>
               </LanguagesItem>
             </ListLanguages>
           </SectionContainer>
