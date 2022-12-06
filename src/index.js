@@ -4,11 +4,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { App } from 'components/app/App';
 import './index.css';
 
-// В BrowserRourer повино ще бути basename="/welder-resume/", якщо його не буде то будуть якісь помилки потів на гіті, но зараз він мені пидсираю потім розібратись чого він підсирає
+// В BrowserRourer повино ще бути basename="/welder-resume", якщо його не буде то будуть якісь помилки потів на гіті
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/welder-resume/">
+    <BrowserRouter basename="/welder-resume-Serhii-Prysiazhniuk">
       <App />
     </BrowserRouter>
   </React.StrictMode>

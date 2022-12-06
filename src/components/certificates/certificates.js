@@ -8,8 +8,10 @@ import {
 } from './certificates.styled';
 
 import { certificat111, certificat135_136 } from '../../certificatesPdf/index';
+import { certificatesJpg } from '../../img/index';
 
 export function Certificates() {
+  console.log(certificatesJpg[0].name);
   return (
     <>
       <ContainerDowload>
@@ -22,22 +24,11 @@ export function Certificates() {
       </ContainerDowload>
 
       <Header>Certificat 111</Header>
-      <Document file={certificat111}>
-        <Page
-          pageNumber={1}
-          renderAnnotationLayer={false}
-          renderTextLayer={false}
-        />
-      </Document>
+      <img src={certificatesJpg[0].url} alt={certificatesJpg[0].name}></img>
 
       <Header>Certificat 135-136</Header>
-      <Document file={certificat135_136}>
-        <Page
-          pageNumber={1}
-          renderAnnotationLayer={false}
-          renderTextLayer={false}
-        />
-      </Document>
+
+      <img src={certificatesJpg[1].url} alt={certificatesJpg[1].name}></img>
     </>
   );
 }
