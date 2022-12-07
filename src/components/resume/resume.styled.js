@@ -2,12 +2,20 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const GlobalContainer = styled.div`
-  width: 900px;
+  // @media (max-width: 400px) {
+  //   width: 400px;
+  // }
+
+  // @media (min-width: 400px) and (max-width: 767px) {
+  //   width: 100%;
+  // }
+
+  // width: 900px;
 `;
 
 export const Image = styled.img`
   width: 180px;
-  heigth: 200px;
+  height: 200px;
 
   border: 4px solid #42949a;
   border-radius: 50%;
@@ -56,11 +64,21 @@ export const Contacts = styled.ul`
   & :last-child {
     margin-left: 15px;
   }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+
+    & :last-child {
+      margin-left: 0px;
+    }
+  }
 `;
 
 export const ContactsLink = styled.a`
   display: flex;
   align-items: center;
+  padding: 4px;
 
   color: white;
 
@@ -71,6 +89,10 @@ export const ContactsLink = styled.a`
   &:hover {
     color: #2196f3;
   }
+
+  @media (max-width: 767px) {
+    align-items: flex-end;
+  }
 `;
 
 // ----------кінець секції хедер-----------------------
@@ -78,6 +100,11 @@ export const ContactsLink = styled.a`
 //-------------Work experiance--------------
 export const Section = styled.div`
   display: flex;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    width: auto;
+  }
 `;
 
 export const Container = styled.div`
@@ -86,8 +113,11 @@ export const Container = styled.div`
 `;
 export const Box = styled.div`
   width: 500px;
-
   padding: 20px;
+
+  @media (max-width: 767px) {
+    width: auto;
+  }
 `;
 
 export const SectionContainer = styled.div`
@@ -95,6 +125,10 @@ export const SectionContainer = styled.div`
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
   }
 `;
 
@@ -134,7 +168,9 @@ export const DateContainer = styled.div`
   justify-content: space-between;
 
   margin-bottom: 5px;
+`;
 
+export const Date = styled.p`
   color: #42949a;
 `;
 
@@ -164,8 +200,23 @@ export const ListTasksItem = styled.li`
 
 //-------------Certificates--------------
 
+export const SectionContainerCertificates = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+`;
+
 export const StyledLink = styled(NavLink)`
-  display: block;
+  display: inline-block;
+  color: black;
+
+  border-bottom: 1px solid;
 
   margin-bottom: 5px;
 
@@ -182,11 +233,18 @@ export const StyledLink = styled(NavLink)`
 
 // ------------Education --------
 
+export const EducationContainer = styled.div`
+  margin-bottom: 5px;
+`;
+
 export const EducationTitle = styled.h4`
   margin-bottom: 5px;
 
   font-weight: 700;
   line-height: 1.17;
+`;
+export const Institute = styled.p`
+  margin-bottom: 5px;
 `;
 
 //---------------Skills---------------

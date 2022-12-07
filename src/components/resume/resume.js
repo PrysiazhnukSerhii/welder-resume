@@ -28,6 +28,10 @@ import {
   LanguagesLevl,
   Interests,
   GlobalContainer,
+  SectionContainerCertificates,
+  Date,
+  EducationContainer,
+  Institute,
 } from './resume.styled';
 import { TfiEmail, TfiMobile } from 'react-icons/tfi';
 
@@ -57,7 +61,6 @@ export function Resume() {
               <TfiEmail /> <span>feremiks@gmail.com</span>
             </ContactsLink>
           </li>
-          {/* звонілка по номеру не вибивається */}
           <li>
             <ContactsLink href="tel:+421944038946">
               <TfiMobile />
@@ -69,19 +72,19 @@ export function Resume() {
       <Section>
         <Box>
           <SectionContainer>
-            <TitleSecondary>WORK EXPERIANCE</TitleSecondary>
+            <TitleSecondary>WORK EXPERIENCE</TitleSecondary>
             <BoxExperience>
               <Position>Welder MIG/MAG MMA</Position>
               <NameCompani>Robi</NameCompani>
               <DateContainer>
-                <p>02/2020-09/2022</p>
+                <Date>02/2020-09/2022</Date>
                 <p>Antwerpen, Belgium</p>
               </DateContainer>
               <Tasks>Achievements/Tasks</Tasks>
               <ListTasks>
                 <ListTasksItem>
-                  Welded tanks for oil products, chemicals and other liquids
-                  with a volume of 6000 tons. black metal, duplex and inox.
+                  Welded black metal, duplex and inox tanks for oil products,
+                  chemicals and other liquids with a volume of 6000 tons.
                 </ListTasksItem>
                 <ListTasksItem>
                   Perform welding 136 and 111 methods in all welding positions,
@@ -95,8 +98,8 @@ export function Resume() {
               <Position>Welder MIG/MAG </Position>
               <NameCompani>UkrProfiGroup</NameCompani>
               <DateContainer>
-                <p>08/2018-12/2019</p>
-                <p>Nowy Sacz, Polend</p>
+                <Date>08/2018-12/2019</Date>
+                <p>Nowy Sącz, Poland</p>
               </DateContainer>
               <Tasks>Achievements/Tasks</Tasks>
               <ListTasks>
@@ -115,8 +118,8 @@ export function Resume() {
               <Position>Welder MIG/MAG </Position>
               <NameCompani>Bizon</NameCompani>
               <DateContainer>
-                <p>07/1017-08/2018</p>
-                <p>Kiev, Ukraine</p>
+                <Date>07/1017-08/2018</Date>
+                <p>Kyiv, Ukraine</p>
               </DateContainer>
               <Tasks>Achievements/Tasks</Tasks>
               <ListTasks>
@@ -128,7 +131,7 @@ export function Resume() {
               </ListTasks>
             </BoxExperience>
           </SectionContainer>
-          <SectionContainer>
+          <SectionContainerCertificates>
             <TitleSecondary>CERTIFICATES</TitleSecondary>
             <StyledLink to="/certificates">
               ISO 9606-1 111 method (08/2022 - 12/2025)
@@ -136,19 +139,21 @@ export function Resume() {
             <StyledLink to="/certificates">
               ISO 9606-1 135-136 method (08/2022 - 12/2025)
             </StyledLink>
-          </SectionContainer>
+          </SectionContainerCertificates>
           <SectionContainer>
-            <TitleSecondary>Education</TitleSecondary>
-            <EducationTitle>Personnel manager in education</EducationTitle>
-            <p>
-              National University of Life and Environmental Sciences of Ukraine
-            </p>
-            <p>09/2012-06/2016</p>
+            <TitleSecondary>EDUCATION</TitleSecondary>
+            <EducationContainer>
+              <EducationTitle>Personnel manager in education</EducationTitle>
+              <Institute>
+                National University of Life and Environmental Sciences of
+                Ukraine
+              </Institute>
+              <Date>09/2012-06/2016</Date>
+            </EducationContainer>
+
             <EducationTitle>Welder MIG/MAG MMA</EducationTitle>
-            <p>
-              National University of Life and Environmental Sciences of Ukraine
-            </p>
-            <p>09/2009-06/2012</p>
+            <Institute>Baranivsky Professional Liceum</Institute>
+            <Date>09/2009-06/2012</Date>
           </SectionContainer>
         </Box>
         {/* це ділить на половину  */}
@@ -174,7 +179,7 @@ export function Resume() {
                 <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
               </LanguagesItem>
               <LanguagesItem>
-                <span>Rassian</span>
+                <span>Russian</span>
                 <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
               </LanguagesItem>
               <LanguagesItem>
