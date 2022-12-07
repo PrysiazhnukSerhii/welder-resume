@@ -1,5 +1,4 @@
 import React from 'react';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 import {
   Header,
@@ -18,7 +17,7 @@ export function Certificates() {
         <LinkCertificates href={certificat111} download>
           Download certificat 111
         </LinkCertificates>
-        <LinkCertificates href={certificat111} download>
+        <LinkCertificates href={certificat135_136} download>
           Download certificat 135-136
         </LinkCertificates>
       </ContainerDowload>
