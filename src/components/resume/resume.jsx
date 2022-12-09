@@ -45,9 +45,9 @@ export function Resume() {
             <Profession>Welder</Profession>
             <p>
               Professional welder with 5+ years of experience in MIG,MAG, MMA
-              welding . Welded in all welding positions was checked ultrasound
-              and X-ray. Capable of reading blueprints and have experience
-              working with a crane beam.
+              welding. Welded in all welding positions the control being
+              performed by means of ultrasound and X-ray. Able to read
+              blueprints and have an experience of working with a crane beam.
             </p>
           </div>
           <Image
@@ -87,8 +87,9 @@ export function Resume() {
                   chemicals and other liquids with a volume of 6000 tons.
                 </ListTasksItem>
                 <ListTasksItem>
-                  Perform welding 136 and 111 methods in all welding positions,
-                  control was performed by ultrasonic and X-ray.
+                  Perform 136 and 111 welding methods in all welding positions,
+                  the control being carried out by means of ultrasonic and
+                  X-ray.
                 </ListTasksItem>
                 <ListTasksItem>Welded flanges and pipes</ListTasksItem>
                 <ListTasksItem>Metal thickness from 4mm to 35mm.</ListTasksItem>
@@ -107,10 +108,12 @@ export function Resume() {
                   Welded elements of train frames and railway bogie.
                 </ListTasksItem>
                 <ListTasksItem>
-                  Perform welding 135 method, in the positions PA, PB, PC, PF,
-                  the control was carried out on vibration and ultra sound.
+                  Perform 135 welding method in the positions PA, PB, PC, PF,
+                  the control being carried out with vibration and ultra sound
                 </ListTasksItem>
-                <ListTasksItem>Made corrections by 141 method.</ListTasksItem>
+                <ListTasksItem>
+                  Made corrections by using 141 method.
+                </ListTasksItem>
                 <ListTasksItem>Metal thickness from 6mm to 25mm.</ListTasksItem>
               </ListTasks>
             </BoxExperience>
@@ -165,10 +168,12 @@ export function Resume() {
               <SkillsItem>MIG/MAG welding</SkillsItem>
               <SkillsItem>Flanges and pipe welding</SkillsItem>
               <SkillsItem>Industrial welding</SkillsItem>
-              <SkillsItem>Noticing molten metal flow changes</SkillsItem>
+              <SkillsItem>
+                Good at noticing molten metal flow changes.
+              </SkillsItem>
               <SkillsItem>Reading blueprints</SkillsItem>
               <SkillsItem>Calculating Dimensions</SkillsItem>
-              <SkillsItem>Work with a grinding machine</SkillsItem>
+              <SkillsItem>Working with a grinding machine</SkillsItem>
             </ListSkills>
           </SectionContainer>
           <SectionContainer>

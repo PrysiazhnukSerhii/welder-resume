@@ -29,6 +29,7 @@ export const StyledLink = styled(NavLink)`
 `;
 
 export const Nav = styled.nav`
+  padding-left: 20px;
   height: 22px;
   background-color: #1c2530;
 `;

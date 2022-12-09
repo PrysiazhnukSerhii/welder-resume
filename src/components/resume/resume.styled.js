@@ -2,7 +2,9 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const GlobalContainer = styled.div`
-  // @media (max-width: 400px) {
+  // margin: 0 auto;
+
+  // @media (min-width: 400px) {
   //   width: 400px;
   // }
 
@@ -15,7 +17,7 @@ export const GlobalContainer = styled.div`
 
 export const Image = styled.img`
   width: 180px;
-  height: 200px;
+  height: 183px;
 
   border: 4px solid #42949a;
   border-radius: 50%;
@@ -108,7 +110,11 @@ export const Section = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 400px;
+  @media (min-width: 768px) {
+    width: 400px;
+  }
+
+  // width: 400px;
   padding: 20px;
 `;
 export const Box = styled.div`

@@ -8,8 +8,6 @@ import { AppBar } from 'components/appBar/appBar';
 import { Container } from './app.styled';
 
 export const App = () => {
-  
-
   return (
     <Container>
       <AppBar />
