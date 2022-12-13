@@ -15,89 +15,17 @@ export const GlobalContainer = styled.div`
   // width: 900px;
 `;
 
-export const Image = styled.img`
-  width: 180px;
-  height: 183px;
-
-  border: 4px solid #42949a;
-  border-radius: 50%;
-`;
-
-// це не повиний бути хедер як по менні//
-
 // під падінги можна буде створити общу секцію чи щось таке
 
 // також потрібно зробити общі кольори які можна винести
 
-// хедер яб краще  назвав всю секцію з заголовком і контактами цеж все хедер як по мені а там шо дальше то можна думати
-
 // треба скинути заголовки на один рівень нижче
-export const Heder = styled.div`
-  display: flex;
-
-  padding: 20px;
-
-  color: white;
-  background-color: #2d394d;
-`;
-
-export const Title = styled.h2`
-  margin-top: 15px;
-  margin-bottom: 15px;
-`;
-
-export const Profession = styled.p`
-  margin-bottom: 15px;
-`;
 
 export const Вescription = styled.h2`
   margin-bottom: 15px;
 `;
 
 // ций сраний ласт чілд кидає зразу і на попередній відступ, тобто і на телефоні і на емайлі зараз відступ. воно чогось прокидує через лі аж на ссилку відступ
-export const Contacts = styled.ul`
-  display: flex;
-  justify-content: center;
-
-  padding: 10px 0;
-
-  background-color: #1c2530;
-
-  & :last-child {
-    margin-left: 15px;
-  }
-
-  @media (max-width: 767px) {
-    flex-direction: column;
-    align-items: center;
-
-    & :last-child {
-      margin-left: 0px;
-    }
-  }
-`;
-
-export const ContactsLink = styled.a`
-  display: flex;
-  align-items: center;
-  padding: 4px;
-
-  color: white;
-
-  & :last-child {
-    margin-left: 5px;
-  }
-
-  &:hover {
-    color: #2196f3;
-  }
-
-  @media (max-width: 767px) {
-    align-items: flex-end;
-  }
-`;
-
-// ----------кінець секції хедер-----------------------
 
 //-------------Work experiance--------------
 export const Section = styled.div`

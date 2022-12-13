@@ -1,9 +1,7 @@
 import { useEffect } from 'react';
 import { Header, ListItem, Box } from './portfolio.styled';
 import { metod111, metod135, metod136 } from '../../img/index';
-import { ImageGalleryItem } from './imageGallery/imageGalleryItem';
-
-// проблема з ul яким обгортую список картинок, якогось хуя він не на всю величину
+import { ImageGalleryItem } from '../../components/imageGallery/imageGalleryItem';
 
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
@@ -15,6 +13,11 @@ export function Portfolio() {
   //   return window.matchMedia('(max-width: 600px) and (orientation: portrait)')
   //     .matches;
   // }
+
+  window.addEventListener('click', e => {
+    console.log(e.target);
+  });
+
   useEffect(() => {
     let lightbox = new PhotoSwipeLightbox({
       gallery: '#' + galleryID,
@@ -43,6 +46,10 @@ export function Portfolio() {
       // maxZoomLevel: 1,
 
       pswpModule: () => import('photoswipe'),
+    });
+    lightbox.on('beforeOpen', () => {
+      console.log('beforeOpen');
+      // photoswipe starts to open
     });
 
     lightbox.on('uiRegister', function () {
@@ -74,8 +81,6 @@ export function Portfolio() {
         },
       });
     });
-
-    console.log(lightbox.init);
 
     lightbox.init();
 

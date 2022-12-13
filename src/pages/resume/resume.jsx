@@ -1,12 +1,7 @@
-import photoSerhiiPrysiazhniuk from '../../img/photoSerhiiPrysiazhniuk.jpg';
+import { Heder } from '../../components/heder/heder';
+import { Contacts } from '../../components/contacts/contacts';
 
 import {
-  Image,
-  Heder,
-  Contacts,
-  ContactsLink,
-  Title,
-  Profession,
   Container,
   SectionContainer,
   Box,
@@ -33,41 +28,13 @@ import {
   EducationContainer,
   Institute,
 } from './resume.styled';
-import { TfiEmail, TfiMobile } from 'react-icons/tfi';
 
 export function Resume() {
   return (
     <GlobalContainer>
       <div>
-        <Heder>
-          <div>
-            <Title>Serhii Prysiazhniuk</Title>
-            <Profession>Welder</Profession>
-            <p>
-              Professional welder with 5+ years of experience in MIG,MAG, MMA
-              welding. Welded in all welding positions the control being
-              performed by means of ultrasound and X-ray. Able to read
-              blueprints and have an experience of working with a crane beam.
-            </p>
-          </div>
-          <Image
-            src={photoSerhiiPrysiazhniuk}
-            alt="photo Serhii Prysiazhniuk"
-          ></Image>
-        </Heder>
-        <Contacts>
-          <li>
-            <ContactsLink href="mailto:feremiks@gmail.com">
-              <TfiEmail /> <span>feremiks@gmail.com</span>
-            </ContactsLink>
-          </li>
-          <li>
-            <ContactsLink href="tel:+421944038946">
-              <TfiMobile />
-              <span> +421944038946</span>
-            </ContactsLink>
-          </li>
-        </Contacts>
+        <Heder />
+        <Contacts />
       </div>
       <Section>
         <Box>
@@ -109,7 +76,7 @@ export function Resume() {
                 </ListTasksItem>
                 <ListTasksItem>
                   Perform 135 welding method in the positions PA, PB, PC, PF,
-                  the control being carried out with vibration and ultra sound
+                  the control being carried out with vibration and ultra sound.
                 </ListTasksItem>
                 <ListTasksItem>
                   Made corrections by using 141 method.
@@ -128,7 +95,7 @@ export function Resume() {
               <ListTasks>
                 <ListTasksItem>
                   Perform welding of various structures (armored doors,
-                  balconies, fences, gates, etc.) using 135 and 111 methods
+                  balconies, fences, gates, etc.) using 135 and 111 methods.
                 </ListTasksItem>
                 <ListTasksItem>Metal thickness from 1mm to 15mm.</ListTasksItem>
               </ListTasks>
@@ -189,7 +156,7 @@ export function Resume() {
               </LanguagesItem>
               <LanguagesItem>
                 <span>English</span>
-                <LanguagesLevl>Pre-Intermediate</LanguagesLevl>
+                <LanguagesLevl>Intermediate</LanguagesLevl>
               </LanguagesItem>
               <LanguagesItem>
                 <span>Slovakian</span>
@@ -204,7 +171,7 @@ export function Resume() {
           <SectionContainer>
             <TitleSecondary>INTERESTS</TitleSecondary>
             <ul>
-              <Interests>Programming javascript</Interests>
+              <Interests>Programming JavaScript</Interests>
               <Interests> Astronomy</Interests>
               <Interests>History</Interests>
               <Interests> Physics</Interests>

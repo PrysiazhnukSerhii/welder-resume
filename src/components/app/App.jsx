@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import { Resume } from '../resume/resume';
-import { Portfolio } from '../portfolio/portfolio';
-import { Certificates } from '../certificates/certificates';
+import { Resume } from '../../pages/resume/resume';
+import { Portfolio } from '../../pages/portfolio/portfolio';
+import { Certificates } from '../../pages/certificates/certificates';
 import { AppBar } from 'components/appBar/appBar';
 
 import { Container } from './app.styled';
