@@ -16,10 +16,9 @@ export function ImageGalleryItem({ imageArray, galleryID }) {
         key={galleryID + '-' + index}
         target="_blank"
         rel="noreferrer"
-        alt="uuuuuuuuuuuu"
+        alt={image.name}
       >
-        <Picture src={image.url} alt={image.name} />
-        {/* <h3 className="hidden-caption-content">TTTTTTTTTTTTTTTTTTTTTTTTT</h3> */}
+        <Picture src={image.url} alt={image.name} loading="lazy" />
       </Link>
     </Item>
   ));

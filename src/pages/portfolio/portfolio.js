@@ -9,16 +9,9 @@ import 'photoswipe/style.css';
 export function Portfolio() {
   const galleryID = 'weld-gallery';
 
-  // function isPhonePortrait() {
-  //   return window.matchMedia('(max-width: 600px) and (orientation: portrait)')
-  //     .matches;
-  // }
-
-  window.addEventListener('click', e => {
-    console.log(e.target);
-  });
-
   useEffect(() => {
+    console.log('юз');
+
     let lightbox = new PhotoSwipeLightbox({
       gallery: '#' + galleryID,
       children: 'a',
@@ -28,25 +21,10 @@ export function Portfolio() {
           bottom: 5,
         };
       },
-      // initialZoomLevel: zoomLevelObject => {
-      //   if (isPhonePortrait()) {
-      //     return zoomLevelObject.vFill;
-      //   } else {
-      //     return zoomLevelObject.fit;
-      //   }
-      // },
-      // secondaryZoomLevel: zoomLevelObject => {
-      //   if (!isPhonePortrait()) {
-      //     return zoomLevelObject.fit;
-      //   } else {
-      //     return 1;
-      //   }
-      // },
-
-      // maxZoomLevel: 1,
 
       pswpModule: () => import('photoswipe'),
     });
+
     lightbox.on('beforeOpen', () => {
       console.log('beforeOpen');
       // photoswipe starts to open
