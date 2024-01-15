@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Header, ListItem, Box } from './portfolio.styled';
-import { metod111, metod135, metod136 } from '../../img/index';
+import { metod111, metod135, metod136, metod141 } from '../../img/index';
 import { ImageGalleryItem } from '../../components/imageGallery/imageGalleryItem';
 
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
@@ -88,6 +88,13 @@ export function Portfolio() {
         <Header>136 MAG</Header>
         <ListItem>
           <ImageGalleryItem imageArray={metod136} galleryId={galleryID} />
+        </ListItem>
+      </Box>
+
+      <Box>
+        <Header>141 TIG</Header>
+        <ListItem>
+          <ImageGalleryItem imageArray={metod141} galleryId={galleryID} />
         </ListItem>
       </Box>
     </div>

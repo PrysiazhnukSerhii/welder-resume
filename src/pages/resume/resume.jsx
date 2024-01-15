@@ -41,6 +41,32 @@ export function Resume() {
           <SectionContainer>
             <TitleSecondary>WORK EXPERIENCE</TitleSecondary>
             <BoxExperience>
+              <Position>Welder MIG/MAG TIG</Position>
+              <NameCompani>Reinbold Gmbh&CO</NameCompani>
+              <DateContainer>
+                <Date>01/2023 - 01/2024</Date>
+                <p>Malterdingen, Germany</p>
+              </DateContainer>
+              <Tasks>Achievements/Tasks</Tasks>
+              <ListTasks>
+                <ListTasksItem>
+                  Welded different kinds of equipment for gyms and medical
+                  institutions
+                </ListTasksItem>
+                <ListTasksItem>
+                  Perform 135 and 141 welding methods in the positions
+                  PA.PB,PG,PF
+                </ListTasksItem>
+                <ListTasksItem>
+                  Straightened pipes in the required planes with the help of a
+                  gas soldering iron
+                </ListTasksItem>
+                <ListTasksItem>
+                  Metal thickness from 1,5mm to 10mm.
+                </ListTasksItem>
+              </ListTasks>
+            </BoxExperience>
+            <BoxExperience>
               <Position>Welder MIG/MAG MMA</Position>
               <NameCompani>Robi</NameCompani>
               <DateContainer>
@@ -101,15 +127,7 @@ export function Resume() {
               </ListTasks>
             </BoxExperience>
           </SectionContainer>
-          <SectionContainerCertificates>
-            <TitleSecondary>CERTIFICATES</TitleSecondary>
-            <StyledLink to="/certificates">
-              ISO 9606-1 111 method (08/2022 - 12/2025)
-            </StyledLink>
-            <StyledLink to="/certificates">
-              ISO 9606-1 135-136 method (08/2022 - 12/2025)
-            </StyledLink>
-          </SectionContainerCertificates>
+
           <SectionContainer>
             <TitleSecondary>EDUCATION</TitleSecondary>
             <EducationContainer>
@@ -143,6 +161,15 @@ export function Resume() {
               <SkillsItem>Working with a grinding machine</SkillsItem>
             </ListSkills>
           </SectionContainer>
+          <SectionContainerCertificates>
+            <TitleSecondary>CERTIFICATES</TitleSecondary>
+            <StyledLink to="/certificates">
+              ISO 9606-1 111 method (08/2022 - 12/2025)
+            </StyledLink>
+            <StyledLink to="/certificates">
+              ISO 9606-1 135-136 method (08/2022 - 12/2025)
+            </StyledLink>
+          </SectionContainerCertificates>
           <SectionContainer>
             <TitleSecondary>LANGUAGES</TitleSecondary>
             <ListLanguages>

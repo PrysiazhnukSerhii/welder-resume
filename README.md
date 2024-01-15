@@ -18,7 +18,7 @@
 5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
    [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
 6. Установи базовые зависимости проекта командой `npm install`.
-7. Запусти режим разработки, выполнив команду `npm start`.
+7. Запусти режим разработки, выполнив команду `'npm start'`.
 8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
    Эта страница будет автоматически перезагружаться после сохранения изменений в
    файлах проекта.

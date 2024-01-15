@@ -19,6 +19,13 @@ import paPuls136 from './fotoWeld/metod136/pa-puls-136.jpg';
 import pfTest136 from './fotoWeld/metod136/pf-136-test.jpg';
 import pfTest136_2 from './fotoWeld/metod136/pf-135-test-2.jpg';
 
+import tig_weld_pipe_1 from './fotoWeld/metod141/tig-weld-1.jpg';
+import tig_weld_pipe_2 from './fotoWeld/metod141/tig-weld-2.jpg';
+import tig_weld_pipe_3 from './fotoWeld/metod141/tig-weld-3.jpg';
+import tig_weld_pipe_4 from './fotoWeld/metod141/tig-weld-4.jpg';
+import tig_weld_pipe_5 from './fotoWeld/metod141/tig-weld-5.jpg';
+import tig_weld_pipe_6 from './fotoWeld/metod141/tig-weld-6.jpg';
+
 import certificates111 from './certificatesJpg/serhii _Prysiazhniuk_111.jpg';
 import certificates135_136 from './certificatesJpg/serhii_Prysiazhniuk_135-136.jpg';
 
@@ -77,6 +84,40 @@ export const metod136 = [
   { name: 'PA puls 7mm 136 metod', url: paPuls136, width: 958, height: 1280 },
   { name: 'PF 15mm 136 metod', url: pfTest136, width: 958, height: 1280 },
   { name: 'PF 15mm 136 metod', url: pfTest136_2, width: 958, height: 1280 },
+];
+
+export const metod141 = [
+  {
+    name: 'Pipe 141 metod',
+    url: tig_weld_pipe_1,
+    width: 958,
+    height: 1280,
+  },
+  {
+    name: 'Pipe 141 metod',
+    url: tig_weld_pipe_2,
+    width: 958,
+    height: 1280,
+  },
+  { name: 'Pipe 141 metod', url: tig_weld_pipe_3, width: 958, height: 1280 },
+  {
+    name: 'inox + black metal 141 metod',
+    url: tig_weld_pipe_4,
+    width: 958,
+    height: 1280,
+  },
+  {
+    name: 'inox + black metal 141 metod',
+    url: tig_weld_pipe_5,
+    width: 958,
+    height: 1280,
+  },
+  {
+    name: 'inox + black metal 141 metod',
+    url: tig_weld_pipe_6,
+    width: 958,
+    height: 1280,
+  },
 ];
 
 export const certificatesJpg = [
