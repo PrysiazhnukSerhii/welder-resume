@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/welder-resume/static/css/main.59af67d3.css",
-    "main.js": "/welder-resume/static/js/main.b827c101.js",
-    "static/js/945.55a576bf.chunk.js": "/welder-resume/static/js/945.55a576bf.chunk.js",
-    "static/media/pf-136-14mm-2.jpg": "/welder-resume/static/media/pf-136-14mm-2.7801ae00ee7409b026c9.jpg",
-    "static/media/pf-136-14mm.jpg": "/welder-resume/static/media/pf-136-14mm.8e406ef9852d586d6582.jpg",
-    "static/media/pf-136-3.jpg": "/welder-resume/static/media/pf-136-3.f99b387d9d63c85b374b.jpg",
+    "main.js": "/welder-resume/static/js/main.6ae78c1f.js",
+    "static/js/945.b95dbc70.chunk.js": "/welder-resume/static/js/945.b95dbc70.chunk.js",
+    "static/media/pf-136-14mm-2.jpg": "/welder-resume/static/media/pf-136-14mm-2.cd336fcac3e37aaefb37.jpg",
+    "static/media/pf-136-14mm.jpg": "/welder-resume/static/media/pf-136-14mm.f048462c33adcd1323a7.jpg",
+    "static/media/tig-weld-4.jpg": "/welder-resume/static/media/tig-weld-4.f5c77650dfec41ca67fb.jpg",
+    "static/media/pf-136-3.jpg": "/welder-resume/static/media/pf-136-3.e4dd154a4086047cd1ad.jpg",
+    "static/media/tig-weld-6.jpg": "/welder-resume/static/media/tig-weld-6.33acaceb332f5d417ecc.jpg",
+    "static/media/tig-weld-1.jpg": "/welder-resume/static/media/tig-weld-1.5b80a2bae02530811bcc.jpg",
     "static/media/serhii_Prysiazhniuk_135-136.jpg": "/welder-resume/static/media/serhii_Prysiazhniuk_135-136.d759053733b41fb740b5.jpg",
     "static/media/serhii _Prysiazhniuk_111.jpg": "/welder-resume/static/media/serhii _Prysiazhniuk_111.db18ace1923170a2adaf.jpg",
+    "static/media/tig-weld-2.jpg": "/welder-resume/static/media/tig-weld-2.f60bf5e0c98134081df1.jpg",
+    "static/media/tig-weld-5.jpg": "/welder-resume/static/media/tig-weld-5.cbd9a62e2d3622204e50.jpg",
+    "static/media/tig-weld-3.jpg": "/welder-resume/static/media/tig-weld-3.31cd8cfe50493e547921.jpg",
     "static/media/pa_electrod.jpg": "/welder-resume/static/media/pa_electrod.91ff917990ad7dc9b694.jpg",
     "static/media/SerhiiPrysiazhniuk135-136.pdf": "/welder-resume/static/media/SerhiiPrysiazhniuk135-136.f51bc0af9f0cb3ce39a5.pdf",
     "static/media/SerhiiPrysiazhniuk111.pdf": "/welder-resume/static/media/SerhiiPrysiazhniuk111.bb6efe53d5767c0de778.pdf",
@@ -28,11 +34,11 @@
     "static/media/photoSerhiiPrysiazhniuk.jpg": "/welder-resume/static/media/photoSerhiiPrysiazhniuk.3b36b4d2b9e375bff75f.jpg",
     "index.html": "/welder-resume/index.html",
     "main.59af67d3.css.map": "/welder-resume/static/css/main.59af67d3.css.map",
-    "main.b827c101.js.map": "/welder-resume/static/js/main.b827c101.js.map",
-    "945.55a576bf.chunk.js.map": "/welder-resume/static/js/945.55a576bf.chunk.js.map"
+    "main.6ae78c1f.js.map": "/welder-resume/static/js/main.6ae78c1f.js.map",
+    "945.b95dbc70.chunk.js.map": "/welder-resume/static/js/945.b95dbc70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59af67d3.css",
-    "static/js/main.b827c101.js"
+    "static/js/main.6ae78c1f.js"
   ]
 }
