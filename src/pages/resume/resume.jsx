@@ -128,21 +128,7 @@ export function Resume() {
             </BoxExperience>
           </SectionContainer>
 
-          <SectionContainer>
-            <TitleSecondary>EDUCATION</TitleSecondary>
-            <EducationContainer>
-              <EducationTitle>Personnel manager in education</EducationTitle>
-              <Institute>
-                National University of Life and Environmental Sciences of
-                Ukraine
-              </Institute>
-              <Date>09/2012-06/2016</Date>
-            </EducationContainer>
-
-            <EducationTitle>Welder MIG/MAG MMA</EducationTitle>
-            <Institute>Baranivsky Professional Liceum</Institute>
-            <Date>09/2009-06/2012</Date>
-          </SectionContainer>
+         
         </Box>
         {/* це ділить на половину  */}
         <Container>
@@ -176,27 +162,46 @@ export function Resume() {
           <SectionContainer>
             <TitleSecondary>LANGUAGES</TitleSecondary>
             <ListLanguages>
-              <LanguagesItem>
-                <span>Ukraine</span>
-                <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
-              </LanguagesItem>
-              <LanguagesItem>
-                <span>Russian</span>
-                <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
-              </LanguagesItem>
-              <LanguagesItem>
+            <LanguagesItem>
                 <span>English</span>
                 <LanguagesLevl>Intermediate</LanguagesLevl>
               </LanguagesItem>
               <LanguagesItem>
-                <span>Slovakian</span>
-                <LanguagesLevl>Elementary</LanguagesLevl>
+                <span>German</span>
+                <LanguagesLevl>Pre-Intermediate</LanguagesLevl>
               </LanguagesItem>
+
               <LanguagesItem>
-                <span>Polish</span>
-                <LanguagesLevl>Elementary</LanguagesLevl>
+                <span>Slovakian</span>
+                <LanguagesLevl>Pre-Intermediate</LanguagesLevl>
               </LanguagesItem>
+
+              <LanguagesItem>
+                <span>Ukraine</span>
+                <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
+              </LanguagesItem>
+
+              <LanguagesItem>
+                <span>Russian</span>
+                <LanguagesLevl>Native or Bilingual Proficiency</LanguagesLevl>
+              </LanguagesItem>
+               
             </ListLanguages>
+          </SectionContainer>
+          <SectionContainer>
+            <TitleSecondary>EDUCATION</TitleSecondary>
+            <EducationContainer>
+              <EducationTitle>Personnel manager in education</EducationTitle>
+              <Institute>
+                National University of Life and Environmental Sciences of
+                Ukraine
+              </Institute>
+              <Date>09/2012-06/2016</Date>
+            </EducationContainer>
+
+            <EducationTitle>Welder MIG/MAG MMA</EducationTitle>
+            <Institute>Baranivsky Professional Liceum</Institute>
+            <Date>09/2009-06/2012</Date>
           </SectionContainer>
           <SectionContainer>
             <TitleSecondary>INTERESTS</TitleSecondary>
