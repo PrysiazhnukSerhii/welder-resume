@@ -8,7 +8,7 @@ export function Heder() {
         <Title>Serhii Prysiazhniuk</Title>
         <Profession>Welder</Profession>
         <p>
-          Professional welder with 5+ years of experience in MIG,MAG, MMA
+          Professional welder with 6+ years of experience in MIG,MAG, MMA
           welding. Welded in all welding positions the control being performed
           by means of ultrasound and X-ray. Able to read blueprints and have an
           experience of working with a crane beam.

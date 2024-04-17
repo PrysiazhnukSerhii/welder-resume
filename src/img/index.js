@@ -28,6 +28,7 @@ import tig_weld_pipe_6 from './fotoWeld/metod141/tig-weld-6.jpg';
 
 import certificates111 from './certificatesJpg/serhii _Prysiazhniuk_111.jpg';
 import certificates135_136 from './certificatesJpg/serhii_Prysiazhniuk_135-136.jpg';
+import certificates_141 from './certificatesJpg/serhii_Prysiazhniuk_141.jpg';
 
 export const metod111 = [
   {
@@ -123,4 +124,5 @@ export const metod141 = [
 export const certificatesJpg = [
   { name: 'Certificates 111', url: certificates111 },
   { name: 'Certificates 135-136', url: certificates135_136 },
+  { name: 'Certificates 141', url: certificates_141 }
 ];

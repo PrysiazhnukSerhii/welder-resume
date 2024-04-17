@@ -164,10 +164,13 @@ export function Resume() {
           <SectionContainerCertificates>
             <TitleSecondary>CERTIFICATES</TitleSecondary>
             <StyledLink to="/certificates">
-              ISO 9606-1 111 method (08/2022 - 12/2025)
+              ISO 9606-1 111 method FM1 (08/2022 - 12/2025)
             </StyledLink>
             <StyledLink to="/certificates">
               ISO 9606-1 135-136 method (08/2022 - 12/2025)
+            </StyledLink>
+            <StyledLink to="/certificates">
+              ISO 9606-1 141 method FM1 (03/2024 - 03/2027)
             </StyledLink>
           </SectionContainerCertificates>
           <SectionContainer>
